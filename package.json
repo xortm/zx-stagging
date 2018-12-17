@@ -1,0 +1,26 @@
+{
+  "name": "zx-templates",
+  "version": "1.0.0",
+  "description": "for miniprogram template",
+  "main": "create-zx.js",
+  "bin": {
+    "create-zx": "./bin/create-zx.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clipboardy": "^1.2.3",
+    "debug": "^3.1.0",
+    "mkdirp": "^0.5.1",
+    "semver": "^5.5.1",
+    "yargs-parser": "^11.0.0",
+    "yeoman-generator": "^3.1.1"
+  }
+}
