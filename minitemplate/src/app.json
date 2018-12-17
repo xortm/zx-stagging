@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine"
+  ],
+  "subPackages": [
+    {
+      "root": "packageSub",
+      "pages": [
+        "home/index"
+      ]
+    }],
+  "window": {
+    "backgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom",
+    "backgroundTextStyle":"light"
+  },
+  "tabBar": {
+    "selectedColor": "#482EFE",
+    "backgroundColor": "#F9F9F9",
+    "borderStyle": "black",
+    "color": "#A2A2A2",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/tab-home.png",
+        "selectedIconPath": "assets/tab-home-cur.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "assets/tab-mine.png",
+        "selectedIconPath": "assets/tab-mine-cur.png"
+      }
+    ]
+  }
+}

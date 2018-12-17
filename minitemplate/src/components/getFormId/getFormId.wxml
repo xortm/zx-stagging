@@ -1,0 +1,24 @@
+<form wx:if="{{userInfoAuth}}" class="com-form form-class" report-submit="{{true}}" bindsubmit="handleSubmit">
+  <button
+    type="{{btnType}}"
+    bindgetphonenumber="handlephonenumber"
+    bindgetuserinfo="handleUserInfo"
+    bindopensetting="handleOpenSetting"
+    style="{{myStyle}}"
+    form-type="submit"
+    open-type="{{myOpenType}}"
+    hover-class="none my-hover-class"
+    class="{{!!btnType ? '': 'com-btn' }} btn-class my-class"
+    id="{{myId}}"
+  >
+    <slot></slot>
+  </button>
+</form>
+<button wx:else open-type="getUserInfo" bindgetuserinfo="handleUserInfo"
+  hover-class="none my-hover-class"
+  class="{{!!btnType ? '': 'com-btn' }} btn-class my-class"
+  style="{{myStyle}}"
+  id="{{myId}}"
+>
+  <slot></slot>
+</button>

@@ -1,0 +1,27 @@
+
+.com-form {
+  padding: 0;
+  height: auto;
+}
+
+.com-btn {
+  padding-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  font-size: medium;
+  text-align: inherit;
+  line-height: normal;
+  color: inherit;
+  border-radius: 0;
+  overflow: inherit;
+  background-color: transparent;
+}
+
+.com-btn::after {
+  border: 0;
+}

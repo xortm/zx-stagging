@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "send-form-id": "/components/getFormId/getFormId"
+  },
+  "disableScroll":true
+}
